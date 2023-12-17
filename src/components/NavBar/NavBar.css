@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+  font-family: "Press Start 2P" ;
+  font-size: 10px;
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+}
+
+.welcome{
+    margin-left: 52px;
+}
+
+.bt{
+    padding-left: 6px;
+}
+
+.bt:hover{
+    animation: headShake;
+    animation-duration: 2s;
+}

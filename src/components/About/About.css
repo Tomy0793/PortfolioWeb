@@ -1,0 +1,141 @@
+
+.container-about{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    
+    animation:lightSpeedInLeft;
+    animation-duration: 1s;
+}
+
+
+.interest{
+    width: 340px;
+    margin-top: 1%;
+    height: 323px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 1%;
+    background-image: url('../../images/Content/about.png');
+    background-size: cover;
+
+    animation:lightSpeedInLeft;
+    animation-duration: 1s;
+}
+
+.interest-1{
+    width: 340px;
+    margin-top: 1%;
+    height: 323px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 1%;
+    background-image: url('../../images/Content/about.png');
+    background-size: cover;
+}
+
+.text{
+word-wrap: break-word;
+padding: 10px;    
+}
+
+#avatarAbout{
+    margin-top: 294px;
+    width: 189px;
+    height: auto;
+    margin-right: 590px;
+}
+
+.btn-mobile{
+    position: absolute;
+    margin-left: 237px;
+    margin-top: 261px;
+    animation:lightSpeedInLeft;
+    animation-duration: 1s;
+
+}
+
+
+.l-an{
+    animation:lightSpeedInLeft;
+    animation-duration: 1s;
+}
+
+/* @keyframes escribir{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+.animacion-escribir{
+    animation: escribir 4s ease-in-out;
+} */
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .container-about {
+        flex-direction: column; /* Cambia a un diseño de columna en dispositivos móviles */
+        align-items: center; /* Centra los elementos en dispositivos móviles */
+    
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+    }
+
+    .interest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 453px;
+    height: 457px;
+    box-sizing: border-box;
+    padding: 1%;
+        background-image: url('../../images/Content/about-mobile.png');
+        background-size: cover;
+    
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+
+
+    }
+
+    .interest-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 453px;
+        height: 457px;
+        box-sizing: border-box;
+        padding: 1%;
+            background-image: url('../../images/Content/about-mobile.png');
+            background-size: cover;
+    
+    
+        }
+
+    .btn-mobile{
+        margin-left: 265px;
+        margin-bottom: 200px;
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+
+    }
+    .text {
+        width: 70%;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    .avatar{
+    margin-left: -150px;
+    margin-top: 10px;
+    width: 189px;
+    height: auto;
+    }
+}

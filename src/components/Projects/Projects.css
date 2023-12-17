@@ -1,0 +1,69 @@
+.avatar {
+    margin-top: 301px;
+    width: 187px;
+    height: auto;
+    position: absolute;
+    margin-left: 340px;
+}
+
+.board{
+    right: 100px;
+    top: 68px;
+    position: absolute;
+    width: 560px;
+}
+
+.book{
+    width: 135px;
+    position: absolute;
+}
+
+#book-1{
+    right: 525px;
+    top: 342px
+}
+
+#book-2{
+    right: 517px;
+    top: 308px;
+}
+
+#book-3{
+    right: 521px;
+    top: 275px;
+}
+
+#book-1:hover{
+cursor: pointer;
+filter: drop-shadow(2px 1px 1px gold);
+}
+
+#book-2:hover{
+    cursor: pointer;
+    filter: drop-shadow(2px 1px 1px gold);
+}
+#book-3:hover{
+    cursor: pointer;
+    filter: drop-shadow(2px 1px 1px gold);
+}
+.container-project{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content-book{
+    position: absolute;
+    width: 405px;
+    z-index: 0;
+    top: 96px;
+    height: 175px;
+    right: 180px;
+}
+
+.h3-book{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 120px;
+ 
+}

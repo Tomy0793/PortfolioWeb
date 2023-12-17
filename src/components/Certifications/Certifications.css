@@ -1,0 +1,103 @@
+
+
+.certification-container{
+    cursor: pointer;
+    width: 268px;
+    height: 254px;
+/*     border: solid 1px; */
+    margin-top: 30px;
+    background-image: url("../../images/Content/back-certifications.png");
+    background-size: cover;
+    
+}
+
+.certification-container:hover{
+    filter: drop-shadow(0px 0px 27px gold);
+}
+
+.principal-container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 10px;
+    background-image: url("../../images/Content/wall.png");
+    background-size: 120px;
+    background-repeat: repeat;
+}
+.img-cert{
+    width: 224px;
+    margin-top: 65px;
+    margin-left: 24px;
+    height: 167px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.img-badge{
+    width: 91px;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(342deg);
+}
+
+.img-badge:hover{
+    filter: drop-shadow(2px 1px 0px gold);
+}
+
+.btn{
+    border: solid 1px black;
+}
+
+
+.btn1{
+    border: solid 1px black;
+    right: -45px;
+} 
+
+.btn-back{
+    display: none;
+}
+
+.avatar1 {
+    margin-top: 301px;
+    width: 187px;
+    height: auto;
+    position: absolute;
+    margin-left: 0px;
+}
+
+.principal-container {
+    transition: background-color 1s ease; /* Transición suave del fondo */
+  }
+  
+
+  .prueba{
+    display: none;
+    width: 100%;
+    position: absolute;
+    height: 487px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+    .cert-skills {
+        position: relative;
+        display: none;
+        width: 362px;
+        height: 351px;
+        box-sizing: border-box;
+        padding: 1%;
+        background-image: url('../../images/Content/about.png');
+        background-size: cover;
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+        }
