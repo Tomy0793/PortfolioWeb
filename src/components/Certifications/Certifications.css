@@ -101,3 +101,38 @@
         animation:lightSpeedInLeft;
         animation-duration: 1s;
         }
+
+
+        /* Medias queries */
+
+        @media screen and (max-width: 768px){
+
+        }
+
+        /* for laptops */
+        @media screen and (max-width: 432px){
+           .principal-container{
+            height: 1139px;
+            flex-direction: row  ;
+            justify-content: center;
+            align-items: center;
+           }
+
+           #cert-1{
+            margin-left: 0px;
+           }
+
+           #fot{
+            position: relative;
+           }
+             
+        }
+
+
+
+        @media screen and (max-width: 500px){
+
+        }
+
+
+        

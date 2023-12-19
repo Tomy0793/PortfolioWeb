@@ -43,7 +43,6 @@ const Projects = () => {
             <img className="book" src={Book3} alt="book" id="book-3" onClick={() => activateBook('book-3')} />
             {activeBook && showContent[activeBook]}
           </div>
-          <img className="avatar" src={Avatar} alt="avatar" />
 
         </>
       ) : null}

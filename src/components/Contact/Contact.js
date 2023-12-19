@@ -5,6 +5,9 @@ import Loader from '../Loader/Loader'
 import "../../components/Contact/Contact.css"
 import formImg from "../../images/Content/form-cont.png"
 import pencil from "../../images/Content/pencil.png"
+import mug from "../../images/Content/mug.png"
+import table from "../../images/Content/table.png"
+
 const Contact = () => {
   const [content, setContentVisible] = useState(false)
 
@@ -23,11 +26,13 @@ const Contact = () => {
 <Loader/>
 {content ? (
         <>
+        <img className='mesa' src={table} />
+        <img className='mug' src={mug} />
         <img className='form-img' src={formImg} />
         <img className='pencil' src={pencil} />
         <div className='form-container'>
           
-          <form action="#" method="post">
+          <form className='formcon' action="#" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required/>
 

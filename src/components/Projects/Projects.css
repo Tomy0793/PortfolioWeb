@@ -67,3 +67,47 @@ filter: drop-shadow(2px 1px 1px gold);
     padding-top: 120px;
  
 }
+
+@media screen and (max-width: 768px){
+    
+#avt{
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 432px){
+    .board {
+        right: 100px;
+        top: 68px;
+        position: absolute;
+        width: 242px;
+    }
+
+#book-3 {
+    right: 256px;
+    top: 275px;
+}
+
+#book-2 {
+    right: 270px;
+    top: 308px;
+}
+
+#book-1 {
+    right: 254px;
+    top: 342px;
+}
+
+.h3-book {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 285px;
+}
+
+#avt{
+    display: none;
+}
+
+}

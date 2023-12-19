@@ -19,11 +19,123 @@
 
 .pencil{
     top: 372px;
-    right: 758px;
+    right: 753px;
     z-index: -1;
     position: absolute;
     width: 166px;
     height: auto;
+}
+
+.mug{
+    top: 370px;
+    right: 401px;
+    z-index: 0;
+    position: absolute;
+    width: 190px;
+    height: auto;
+    transform: rotate(11deg);
+}
+
+.mesa{
+    top: 58px;
+    right: 218px;
+    z-index: -1;
+    position: absolute;
+    width: 924px;
+    height: auto;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .mug {
+        top: 593px;
+        right: 95px;
+        z-index: 0;
+        position: absolute;
+        width: 190px;
+        height: auto;
+        transform: rotate(11deg);
+    }
+    .pencil {
+        top: 589px;
+        right: 457px;
+        z-index: -1;
+        position: absolute;
+        width: 166px;
+        height: auto;
+    }
+
+    .mesa {
+        top: 284px;
+        right: -51px;
+        z-index: -1;
+        position: absolute;
+        width: 861px;
+        height: auto;
+    }
+
+    .form-img {
+        top: 279px;
+        z-index: -1;
+        position: absolute;
+        width: 362px;
+        height: auto;
+    }
+    .formcon {
+        margin-top: 231px;
+        max-width: 400px;
+    }
+    #fot {
+        position: fixed;
+    }
+}
+
+
+@media screen and (max-width: 432px){
+    .mug {
+        top: 617px;
+        right: 0px;
+        z-index: 0;
+        position: absolute;
+        width: 168px;
+        height: auto;
+        transform: rotate(11deg);
+    }
+    .pencil {
+        top: 606px;
+        right: 255px;
+        z-index: -1;
+        position: absolute;
+        width: 166px;
+        height: auto;
+    }
+
+    .mesa {
+        top: 242px;
+        right: -164px;
+        z-index: -1;
+        position: absolute;
+        width: 763px;
+        height: auto;
+        transform: rotate(90deg);
+    }
+
+    .form-img {
+        top: 279px;
+        z-index: -1;
+        position: absolute;
+        width: 362px;
+        height: auto;
+    }
+    .formcon {
+        margin-top: 231px;
+        max-width: 400px;
+    }
+    #fot {
+        position: fixed;
+    }
 }
 
 form {
@@ -52,21 +164,4 @@ input, textarea{
 
 textarea {
     resize: vertical;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-button[type="reset"] {
-    background-color: #f44336;
 }

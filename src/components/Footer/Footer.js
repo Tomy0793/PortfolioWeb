@@ -3,7 +3,7 @@ import "../Footer/Footer.css";
 
 const Footer = () => {
   return (
-    <footer >
+    <footer id='fot' >
     <p>&copy; 2023 Portfolio creado por Tomas Ninno. Todos los derechos reservados.</p>
   </footer>
   )

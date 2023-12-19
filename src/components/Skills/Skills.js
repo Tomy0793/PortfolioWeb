@@ -91,12 +91,13 @@ const hoverCert = (id) =>{
 <Loader/>
 {content ? (
         <>
-        <div className='skill-container'>
+        <div className='skill-container container-fluid'>
         <div className='vhs-container'>
         <img className='vhs1' id='vhs1' src={Vhs1} alt='video' onClick={()=> { hoverCert('vhs1'); activateVhs("vhs1") } } />
         <img className='vhs2' id='vhs2' src={Vhs2} alt='video' onClick={()=> { hoverCert('vhs2'); activateVhs("vhs2") }} />
         </div>
         <div className='tv-container'>
+        
         <img className='video' src={Video} alt='video' />  
         <img className='img-avatar' src={Avatar} alt='btn-tv' />
         <div className='tv'>
