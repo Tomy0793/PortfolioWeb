@@ -66,7 +66,7 @@ const Certifications = () => {
               id={id}
               onClick={() => hoverCert(id)}
               style={{
-                transform: isCertHovered(id) ? 'scale(1.8)' : 'scale(1)',
+                transform: isCertHovered(id) ? 'scale(1.5)' : 'scale(1)',
                 marginTop: isCertHovered(id) ? '113px' : '30px',
                 transition: 'transform 0.3s ease-in-out, border 0.3s ease-in-out, margin 0.3s ease-in-out',
                 zIndex: isCertHovered(id) ? '2' : '1',

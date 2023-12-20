@@ -106,13 +106,19 @@
         /* Medias queries */
 
         @media screen and (max-width: 768px){
+            .principal-container{
+                height: 712px;
+            }
 
+            #fot{
+                display: none;
+            }
         }
 
         /* for laptops */
         @media screen and (max-width: 432px){
            .principal-container{
-            height: 1139px;
+            height: 1171px;
             flex-direction: row  ;
             justify-content: center;
             align-items: center;

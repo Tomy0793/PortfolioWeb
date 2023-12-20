@@ -6,11 +6,19 @@
 
 .form-container{
     width: 308px;
-    padding-top: 70px;
+    padding-top: 92px;
+}
+
+
+.formcon{   
+    position: relative;
+    width: 234px;
+    max-width: 408px;
+    margin-left: -57px;
 }
 
 .form-img{
-    top: 70px;
+    top: 89px;
     z-index: -1;
     position: absolute;
     width: 362px;
@@ -18,8 +26,8 @@
 }
 
 .pencil{
-    top: 372px;
-    right: 753px;
+    top: 374px;
+    right: 779px;
     z-index: -1;
     position: absolute;
     width: 166px;
@@ -27,7 +35,7 @@
 }
 
 .mug{
-    top: 370px;
+    top: 400px;
     right: 401px;
     z-index: 0;
     position: absolute;
@@ -37,7 +45,7 @@
 }
 
 .mesa{
-    top: 58px;
+    top: 77px;
     right: 218px;
     z-index: -1;
     position: absolute;
@@ -45,12 +53,109 @@
     height: auto;
 }
 
+.icons{
+    width: 68px;
+    height: auto;
+}
 
+
+#in{
+    position: relative;
+    RIGHT: 64px;
+    top: -88px;
+    transform: rotate(342deg);
+}
+
+#git{
+    position: relative;
+    RIGHT: 124px;
+    top: 67px;
+    transform: rotate(24deg);
+}
+
+#cv{
+    position: relative;
+    RIGHT: 208px;
+    top: 211px;
+    transform: rotate(342deg);
+}
+
+#in:hover{
+    cursor: pointer;
+    filter: drop-shadow(2px 1px 0px gold);
+}
+
+#git:hover{
+    cursor: pointer;
+    filter: drop-shadow(2px 1px 0px gold);
+}
+
+#cv:hover{
+    cursor: pointer;
+    filter: drop-shadow(2px 1px 0px gold);
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+    .mesa{
+        top: 130px;
+        right: 50px;
+    }
+    
+    .mug{
+        top: 461px;
+        right: 267px;
+    }
+    
+    .form-img{
+        top: 142px;
+    }
+    
+    .pencil{
+        top: 428px;
+        right: 591px;
+    }
+    
+    .form-container{
+        padding-top: 160px;
+    }
+    }
+    
 
 
 @media screen and (max-width: 768px){
     .mug {
-        top: 593px;
+        top: 490px;
         right: 95px;
         z-index: 0;
         position: absolute;
@@ -59,7 +164,7 @@
         transform: rotate(11deg);
     }
     .pencil {
-        top: 589px;
+        top: 450px;
         right: 457px;
         z-index: -1;
         position: absolute;
@@ -68,23 +173,23 @@
     }
 
     .mesa {
-        top: 284px;
-        right: -51px;
-        z-index: -1;
-        position: absolute;
-        width: 861px;
-        height: auto;
-    }
+    top: 121px;
+    right: -23px;
+    z-index: -1;
+    position: absolute;
+    width: 788px;
+    height: 526px;
+}
 
     .form-img {
-        top: 279px;
+        top: 148px;
         z-index: -1;
         position: absolute;
         width: 362px;
         height: auto;
     }
-    .formcon {
-        margin-top: 231px;
+    .form-container {
+        margin-top: 0px;
         max-width: 400px;
     }
     #fot {
@@ -93,7 +198,7 @@
 }
 
 
-@media screen and (max-width: 432px){
+@media screen and (max-width: 500px){
     .mug {
         top: 617px;
         right: 0px;
@@ -130,38 +235,38 @@
         height: auto;
     }
     .formcon {
-        margin-top: 231px;
-        max-width: 400px;
+        position: relative;
+    margin-top: 116px;
+    max-width: 400px;
+    margin-left: -110px;
     }
+
+
+    #in{
+        position: relative;
+        RIGHT: -50px;
+        top: -88px;
+        transform: rotate(342deg);
+    }
+    
+    #git{
+        position: relative;
+        RIGHT: -243px;
+        top: -88px;
+        transform: rotate(24deg);
+    }
+    
+    #cv{
+        position: relative;
+        RIGHT: -42px;
+        top: -99px;
+        
+    }
+    
+
+
     #fot {
+      top: 262px;
         position: fixed;
     }
-}
-
-form {
-    max-width: 400px;
-    margin: 20px auto;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-}
-
-input, textarea{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid black;
-}
-
-
-textarea {
-    resize: vertical;
 }
