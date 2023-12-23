@@ -155,11 +155,79 @@
 }
 .h3-tv1 {
   text-align: center;
-  padding: 14px;
-  opacity: 0;
-  transform: translateX(100%);
-/*   animation: aparecer 1s forwards; */
+  padding: 8px;
+  font-size: 16px;
 }
+
+
+/* Cambio de canal mediante ids */
+#tv-3{
+  padding: 30px;
+  padding-top: 60px;
+}
+
+#tv-4{
+  font-size: 16px;
+  padding: 30px;
+  padding-top: 60px;
+}
+
+
+#tv-5{
+  font-size: 11px;
+  padding: 30px;
+  padding-top: 60px;
+}
+
+#tv-6 {
+  padding: 30px;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+
+#tv1{
+  background-color: #E44D26;
+  color: linear-gradient(to right, #E44D26, #264DE4);
+}
+
+
+#tv2{
+  background-color: #264DE4;
+}
+
+#tv3{
+
+  background-color: #7952B3;
+}
+
+#tv4{
+  background-color: #F0DB4F;
+}
+
+#tv5{
+  background-color: #61DAFB;
+}
+
+#tv6{
+  background-color: #68A063;
+}
+
+#tv7{
+  background-color: #181717;
+  color: white;
+}
+
+#ss1,#ss2,#ss3,#ss4,#ss5,#ss6,#ss7,#ss8,#ss9,#ss10,#ss11{
+  background-color: #a4d4a0;
+}
+
+
+
+
+
+
+
 @keyframes aparecer{
   to{
     opacity: 1;

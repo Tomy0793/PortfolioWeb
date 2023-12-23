@@ -35,7 +35,7 @@ const NavBar = () => {
             <LinkContainer to="Contact"> 
             <Nav.Link className='bt' href="#link">Contact me</Nav.Link>
             </LinkContainer>
-            <Navbar.Brand className='welcome'>Bienvenido a mi Portfolio!</Navbar.Brand>
+            <Navbar.Brand className='welcome'>Welcome to my Portfolio!</Navbar.Brand>
           </Nav>
         </Navbar.Collapse>
       </Container>

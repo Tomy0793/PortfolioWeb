@@ -10,7 +10,7 @@ import '../Projects/Projects.css';
 
 const Projects = () => {
   const [content, setContentVisible] = useState(false);
-  const [activeBook, setActiveBook] = useState(null);
+  const [activeBook, setActiveBook] = useState("book-0");
 
   useEffect(() => {
     const visible = setTimeout(() => {
@@ -21,6 +21,7 @@ const Projects = () => {
   }, []);
 
   const showContent = {
+    'book-0': <div className="content-book" key="book-1"><h3 className="h3-book">Click on the books to view projects.</h3></div>,
     'book-1': <div className="content-book" key="book-1"><h3 className="h3-book">Team work</h3></div>,
     'book-2': <div className="content-book" key="book-2"><h3 className="h3-book">Frontend</h3></div>,
     'book-3': <div className="content-book" key="book-3"><h3 className="h3-book">JavaScript</h3></div>,

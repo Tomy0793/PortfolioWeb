@@ -33,12 +33,13 @@
     margin-left: 190px;
     /* border: 1px solid black; */
     box-sizing: border-box;
-    padding: 1%;
+    padding: 2%;
     background-image: url('../../images/Content/about.png');
     background-size: cover;
 }
 
 .text{
+    font-size: 10px;
 word-wrap: break-word;
 padding: 10px;    
 }
