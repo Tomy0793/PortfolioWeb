@@ -2,8 +2,8 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Loader from '../Loader/Loader'
 import "../Certifications/Certifications.css";
-import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-
+/* import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+ */
 const certificationsData = [
   {
     id: 'cert-1',
