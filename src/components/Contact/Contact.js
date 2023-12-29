@@ -38,7 +38,7 @@ const Contact = () => {
         <img className='pencil' src={pencil} alt='pencil' />
         <div className='form-container'>
           
-          <form className='formcon' action="#" method="post">
+          <form className='formcon' action="https://formspree.io/f/mnqeqqpg" method="post">
         <label for="nombre">Name:</label>
         <input type="text" id="nombre" name="nombre" required/>
 

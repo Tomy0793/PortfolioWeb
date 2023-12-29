@@ -103,6 +103,7 @@ form {
 label {
     display: block;
     margin-bottom: 8px;
+    margin-top: 10px;
 }
 
 input, textarea {
@@ -245,22 +246,22 @@ textarea {
     #in{
         position: relative;
         RIGHT: -50px;
-        top: -88px;
+        top: -132px;
         transform: rotate(342deg);
     }
     
     #git{
         position: relative;
         RIGHT: -243px;
-        top: -88px;
+        top: -132px;
         transform: rotate(24deg);
     }
     
     #cv{
         position: relative;
         RIGHT: -42px;
-        top: -99px;
-        
+        top: -158px;
+        transform: rotate(0deg);
     }
     
 
