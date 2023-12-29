@@ -45,7 +45,7 @@ const Contact = () => {
         <label for="correo">Email address:</label>
         <input type="email" id="correo" name="correo" required/>
 
-        <label for="mensaje">Mesagge:</label>
+        <label for="mensaje">Message:</label>
         <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
         <button type="submit">Send</button>
