@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/PortfolioWeb/static/css/main.e4f24e6a.css",
+    "main.js": "/PortfolioWeb/static/js/main.7e8c03bb.js",
+    "static/js/787.7da95b79.chunk.js": "/PortfolioWeb/static/js/787.7da95b79.chunk.js",
+    "static/media/logo.png": "/PortfolioWeb/static/media/logo.71b85c5e5e191b405748.png",
+    "static/media/avatar.png": "/PortfolioWeb/static/media/avatar.bbaebbf774b5f04bf210.png",
+    "static/media/certificate-js.png": "/PortfolioWeb/static/media/certificate-js.ad00c0b8839ceb13bdfa.png",
+    "static/media/certificate-react.png": "/PortfolioWeb/static/media/certificate-react.49458f543bc31981b2a8.png",
+    "static/media/certificate-english.png": "/PortfolioWeb/static/media/certificate-english.e97b24662a02a1ad7233.png",
+    "static/media/react-badge.png": "/PortfolioWeb/static/media/react-badge.a0123b203bcf67673288.png",
+    "static/media/html-badge.png": "/PortfolioWeb/static/media/html-badge.34b0870d6454ab77592a.png",
+    "static/media/js-bagde.png": "/PortfolioWeb/static/media/js-bagde.799bd5b5b39287458535.png",
+    "static/media/english-badge.png": "/PortfolioWeb/static/media/english-badge.739424fe50a2203aabad.png",
+    "static/media/tomas-ninno.pdf": "/PortfolioWeb/static/media/tomas-ninno.7fdfae5bf4f28cba41f9.pdf",
+    "static/media/certificate-html.png": "/PortfolioWeb/static/media/certificate-html.9517f41c2519541384b9.png",
+    "static/media/tv.png": "/PortfolioWeb/static/media/tv.28d1209c42708f881853.png",
+    "static/media/about-mobile.png": "/PortfolioWeb/static/media/about-mobile.5a976d7125718f3d57ae.png",
+    "static/media/wall.png": "/PortfolioWeb/static/media/wall.c728d1295fe1a76343dc.png",
+    "static/media/pencil.png": "/PortfolioWeb/static/media/pencil.b120bb0091172067d11a.png",
+    "static/media/cv-icon.png": "/PortfolioWeb/static/media/cv-icon.b4e5b1807d5ebc47d0ad.png",
+    "static/media/form-cont.png": "/PortfolioWeb/static/media/form-cont.6846eb505351b0fa0f8c.png",
+    "static/media/back-certifications.png": "/PortfolioWeb/static/media/back-certifications.f1f878460cfc81e1158f.png",
+    "static/media/board.png": "/PortfolioWeb/static/media/board.85fef5fc72fd7f14297c.png",
+    "static/media/red-book.png": "/PortfolioWeb/static/media/red-book.24b728089d335d3e5b41.png",
+    "static/media/blue-book.png": "/PortfolioWeb/static/media/blue-book.7469a8dbdf3d67006e01.png",
+    "static/media/yellow-book.png": "/PortfolioWeb/static/media/yellow-book.ca87e5c17144feef4f9f.png",
+    "index.html": "/PortfolioWeb/index.html",
+    "main.e4f24e6a.css.map": "/PortfolioWeb/static/css/main.e4f24e6a.css.map",
+    "main.7e8c03bb.js.map": "/PortfolioWeb/static/js/main.7e8c03bb.js.map",
+    "787.7da95b79.chunk.js.map": "/PortfolioWeb/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4f24e6a.css",
+    "static/js/main.7e8c03bb.js"
+  ]
+}
