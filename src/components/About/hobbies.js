@@ -5,7 +5,7 @@ const hobbies = () => {
     <div className='interest-1'>
     <TypeAnimation className='text'
   sequence={[
-    'My hobbies are as follows::',
+    'My hobbies are as follows:',
     500,
     '*Playing the guitar. \n *Drawing.\n *Nature.\n *Playing video games.',
     500,

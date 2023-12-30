@@ -148,3 +148,248 @@ padding: 10px;
         margin-right: 547px;
     }
 }
+
+@media screen and (max-width: 432px) {
+    .container-about {
+        flex-direction: column; /* Cambia a un diseño de columna en dispositivos móviles */
+        align-items: center; /* Centra los elementos en dispositivos móviles */   
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+    }
+
+    .interest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 453px;
+    height: 457px;
+    box-sizing: border-box;
+    padding: 1%;
+        background-image: url('../../images/Content/about-mobile.png');
+        background-size: cover;
+    
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+
+
+    }
+
+    .interest-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 21rem;
+        width: 43rem;
+        height: 457px;
+        box-sizing: border-box;
+        padding: 1%;
+            background-image: url('../../images/Content/about-mobile.png');
+            background-size: cover;
+    
+    
+        }
+
+    .btn-mobile{
+        /* margin-left: 265px;
+        animation:lightSpeedInLeft;
+        animation-duration: 1s; */
+        margin-left: 26rem;
+        margin-top: 26rem;
+        animation: lightSpeedInLeft;
+        animation-duration: 1s;
+
+    }
+    .text {
+        /* width: 70%;
+        margin-left: 80px;
+        margin-top: 50px;
+        padding-right: 65px; */
+        /* width: 48%; */
+        height: 34rem;
+        margin-left: 9rem;
+        margin-top: 4rem;
+        padding-right: 2rem;
+    }
+
+    .avatar{
+    margin-left: -150px;
+    margin-top: 10px;
+    width: 189px;
+    height: auto;
+    }
+
+    #avatarAbout {
+        /* margin-top: 704px;
+        width: 279px;
+        height: auto;
+        margin-right: 547px; */
+        margin-top: 65rem;
+    width: 20rem;
+    height: auto;
+    margin-right: 54rem;
+    }
+}
+
+
+@media screen and (max-width: 392px) {
+    .container-about {
+        flex-direction: column; /* Cambia a un diseño de columna en dispositivos móviles */
+        align-items: center; /* Centra los elementos en dispositivos móviles */   
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+    }
+
+    .interest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 453px;
+    height: 457px;
+    box-sizing: border-box;
+    padding: 1%;
+        background-image: url('../../images/Content/about-mobile.png');
+        background-size: cover;
+    
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+
+
+    }
+
+    .interest-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 23rem;
+        width: 43rem;
+        height: 457px;
+        box-sizing: border-box;
+        padding: 1%;
+            background-image: url('../../images/Content/about-mobile.png');
+            background-size: cover;
+    
+    
+        }
+
+    .btn-mobile{
+        /* margin-left: 265px;
+        animation:lightSpeedInLeft;
+        animation-duration: 1s; */
+        margin-left: 26rem;
+        margin-top: 26rem;
+        animation: lightSpeedInLeft;
+        animation-duration: 1s;
+
+    }
+    .text {
+        /* width: 70%;
+        margin-left: 80px;
+        margin-top: 50px;
+        padding-right: 65px; */
+        /* width: 48%; */
+        height: 34rem;
+        margin-left: 9rem;
+        margin-top: 4rem;
+        padding-right: 2rem;
+    }
+
+    .avatar{
+    margin-left: -150px;
+    margin-top: 10px;
+    width: 189px;
+    height: auto;
+    }
+
+    #avatarAbout {
+        /* margin-top: 704px;
+        width: 279px;
+        height: auto;
+        margin-right: 547px; */
+        margin-top: 60rem;
+    width: 16rem;
+    height: auto;
+    margin-right: 54rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container-about {
+        flex-direction: column; /* Cambia a un diseño de columna en dispositivos móviles */
+        align-items: center; /* Centra los elementos en dispositivos móviles */   
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+    }
+
+    .interest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 453px;
+    height: 457px;
+    box-sizing: border-box;
+    padding: 1%;
+        background-image: url('../../images/Content/about-mobile.png');
+        background-size: cover;
+    
+        animation:lightSpeedInLeft;
+        animation-duration: 1s;
+
+
+    }
+
+    .interest-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 23rem;
+        width: 37rem;
+        height: 396px;
+        box-sizing: border-box;
+        padding: 1%;
+            background-image: url('../../images/Content/about-mobile.png');
+            background-size: cover;
+    
+    
+        }
+
+    .btn-mobile{
+        /* margin-left: 265px;
+        animation:lightSpeedInLeft;
+        animation-duration: 1s; */
+        margin-left: 21rem;
+        margin-top: 21rem;
+        animation: lightSpeedInLeft;
+        animation-duration: 1s;
+
+    }
+    .text {
+        /* width: 70%;
+        margin-left: 80px;
+        margin-top: 50px;
+        padding-right: 65px; */
+        /* width: 48%; */
+        width: 80%;
+    height: 16rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    }
+
+    .avatar{
+    margin-left: -150px;
+    margin-top: 10px;
+    width: 189px;
+    height: auto;
+    }
+
+    #avatarAbout {
+        /* margin-top: 704px;
+        width: 279px;
+        height: auto;
+        margin-right: 547px; */
+        margin-top: 60rem;
+    width: 16rem;
+    height: auto;
+    margin-right: 54rem;
+    }
+}

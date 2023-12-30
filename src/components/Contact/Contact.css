@@ -271,3 +271,121 @@ textarea {
         position: fixed;
     }
 }
+
+@media screen and (max-width: 390px){
+    .mug {
+        top: 617px;
+        right: 23px;
+        z-index: 0;
+        position: absolute;
+        width: 129px;
+        height: auto;
+        transform: rotate(29deg);
+    }
+    .pencil {
+        top: 546px;
+        right: 224px;
+        z-index: -1;
+        position: absolute;
+        width: 166px;
+        height: auto;
+    }
+
+    .mesa {
+        top: 242px;
+    right: -162px;
+    z-index: -1;
+    position: absolute;
+    width: 719px;
+    height: auto;
+    transform: rotate(90deg);
+    }
+
+    #in{
+        position: relative;
+        RIGHT: -26px;
+        top: -132px;
+        transform: rotate(342deg);
+    }
+    
+    #git{
+        position: relative;
+        RIGHT: -217px;
+        top: -132px;
+        transform: rotate(24deg);
+    }
+    
+    #cv{
+        position: relative;
+        RIGHT: -26px;
+        top: -158px;
+        transform: rotate(0deg);
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    .mug {
+        top: 617px;
+        right: 23px;
+        z-index: 0;
+        position: absolute;
+        width: 129px;
+        height: auto;
+        transform: rotate(29deg);
+    }
+    .pencil {
+        top: 546px;
+        right: 191px;
+        z-index: -1;
+        position: absolute;
+        width: 166px;
+        height: auto;
+    }
+
+    formcon {
+        position: relative;
+        margin-top: 116px;
+        max-width: 400px;
+        margin-left: -136px;
+    }
+
+    .mesa {
+        top: 242px;
+        right: -153px;
+        z-index: -1;
+        position: absolute;
+        width: 669px;
+        height: auto;
+        transform: rotate(90deg);
+    }
+    .form-img {
+        top: 254px;
+        z-index: -1;
+        position: absolute;
+        width: 325px;
+        height: auto;
+    }
+    
+
+    #in{
+        position: relative;
+        RIGHT: -26px;
+        top: -132px;
+        transform: rotate(342deg);
+    }
+    
+    #git{
+        position: relative;
+        RIGHT: -193px;
+        top: -132px;
+        transform: rotate(24deg);
+    }
+    
+    #cv{
+        position: relative;
+        RIGHT: -13px;
+        top: -158px;
+        transform: rotate(0deg);
+    }
+}

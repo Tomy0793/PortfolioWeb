@@ -149,9 +149,9 @@
 .h3-tv {
   text-align: center;
   padding: 62px;
-  opacity: 0;
-  transform: translateX(100%);
-  animation: aparecer 1s forwards;
+  opacity: 1;
+  /* transform: translateX(100%);
+  animation: aparecer 1s forwards; */
 }
 .h3-tv1 {
   text-align: center;
@@ -428,3 +428,276 @@ footer{
 }
 
 }
+
+
+@media screen and (max-width: 391px){
+
+
+  .tv-container {
+    /* display: flex; */
+    width: 42rem;
+    margin-right: 4rem;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+  footer{
+    position: relative;
+  }
+  
+    .img-avatar {
+      position: absolute;
+      width: 176px;
+      height: auto;
+      top: 472px;
+      left: 30px;
+  }
+  
+  
+    .vhs-container {
+      /* position: absolute;
+      height: 300px;
+      width: 390px;
+      left: 15px;
+      z-index: 1; */
+      position: absolute;
+      height: 18rem;
+      width: 37rem;
+      left: 0px;
+      z-index: 1;
+  }
+  
+  .vhs1{
+    /* width: 181px;
+    top: 58px;
+    left: 206px; */
+    width: 16rem;
+    top: 6rem;
+    left: 21rem;
+  }
+  
+  .vhs2{
+    /* width: 181px;
+    top: 58px; */
+    width: 16rem;
+      top: 6rem;
+      left: 1rem;
+  }
+  
+  .skill-container {
+    width: 505px;
+    height: 700px;
+  }
+  
+  .video {
+    position: absolute;
+    left: 17%;
+    width: 185px;
+    top: 20%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  
+  .tv{
+   /*  margin-left: 0px;
+    margin-top: 78px; */
+    width: 42rem;
+    margin-left: 0rem;
+    margin-top: 8rem;
+  }
+  
+  .casette {
+    top: 109px;
+    background: beige;
+    left: 94px;
+    width: 94px;
+    text-align: center;
+    padding: 4px;
+    font-size: 8px;
+    height: 21px;
+    position: absolute;
+  }
+  
+  .img-btn-tv {
+    width: 56px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  .btn-tv {
+    /* border: none;
+    position: absolute;
+    top: 59%;
+    left: -11%;
+    transform: translate(386px, -35px);
+    width: 56px;
+    height: 56px;
+    border-radius: 50px; */
+    border: none;
+    position: absolute;
+    top: 27rem;
+    left: -6.5rem;
+    transform: translate(386px, -35px);
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50px;
+  }
+  
+  .content-tv {
+    position: absolute;
+    margin-left: 8.4rem;
+    margin-top: 10rem;
+    width: 21.8rem;
+    height: 16rem;
+    z-index: -1;
+    /* border: solid; */
+    background-color: grey;
+    border-radius: 18px;
+  }
+  
+  }
+  
+
+  @media screen and (max-width: 360px){
+
+
+    .tv-container {
+      /* display: flex; */
+      width: 37rem;
+      margin-right: 4rem;
+      position: relative;
+      margin-top: 5px;
+  }
+  
+  
+    footer{
+      position: relative;
+    }
+    
+      .img-avatar {
+        position: absolute;
+        width: 176px;
+        height: auto;
+        top: 472px;
+        left: 30px;
+    }
+    
+    
+      .vhs-container {
+        /* position: absolute;
+        height: 300px;
+        width: 390px;
+        left: 15px;
+        z-index: 1; */
+        position: absolute;
+        height: 18rem;
+        width: 36rem;
+        left: 0px;
+        z-index: 1;
+    }
+    
+    .vhs1{
+      /* width: 181px;
+      top: 58px;
+      left: 206px; */
+      width: 14rem;
+      top: 6rem;
+      left: 19rem;
+    }
+    
+    .vhs2{
+      /* width: 181px;
+      top: 58px; */
+      width: 14rem;
+        top: 6rem;
+        left: 3rem;
+    }
+    
+    .skill-container {
+      width: 505px;
+      height: 700px;
+    }
+    
+    .video {
+      position: absolute;
+      left: 17%;
+      width: 162px;
+      top: 20%;
+      height: -moz-fit-content;
+      height: fit-content;
+    }
+    
+    .tv{
+     /*  margin-left: 0px;
+      margin-top: 78px; */
+      width: 42rem;
+      margin-left: 0rem;
+      margin-top: 8rem;
+    }
+    
+    .casette {
+      top: 106px;
+    background: beige;
+    left: 79px;
+    width: 82px;
+    text-align: center;
+    padding: 4px;
+    font-size: 8px;
+    height: 21px;
+    position: absolute;
+    }
+    
+    .img-btn-tv {
+      width: 45px;
+      height: auto;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+    .btn-tv {
+      /* border: none;
+      position: absolute;
+      top: 59%;
+      left: -11%;
+      transform: translate(386px, -35px);
+      width: 56px;
+      height: 56px;
+      border-radius: 50px; */
+      border: none;
+      position: absolute;
+      top: 25rem;
+      left: -9.5rem;
+      transform: translate(386px, -35px);
+      width: 4.5rem;
+      height: 4.5rem;
+      border-radius: 50px;
+    }
+    
+    .content-tv {
+      position: absolute;
+      margin-left: 6.4rem;
+      margin-top: 9rem;
+      width: 22.9rem;
+      height: 14rem;
+      z-index: -1;
+      /* border: solid; */
+      background-color: grey;
+      border-radius: 18px;
+    }
+    
+    #tv-5{
+      font-size: 11px;
+      padding: 30px;
+      padding-top: 60px;
+    }
+    
+    #tv-6 {
+      padding: 30px;
+      padding-top: 20px;
+      font-size: 13px;
+    }
+
+    }
+    
