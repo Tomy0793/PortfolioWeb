@@ -339,14 +339,20 @@ footer{
 }
 
 .vhs1{
-  width: 181px;
+  /* width: 181px;
   top: 58px;
-  left: 206px;
+  left: 206px; */
+  width: 18rem;
+  top: 6rem;
+  left: 21rem;
 }
 
 .vhs2{
-  width: 181px;
-  top: 58px;
+  /* width: 181px;
+  top: 58px; */
+  width: 18rem;
+    top: 6rem;
+    left: 1rem;
 }
 
 .skill-container {
@@ -364,8 +370,11 @@ footer{
 }
 
 .tv{
-  margin-left: 0px;
-  margin-top: 78px;
+ /*  margin-left: 0px;
+  margin-top: 78px; */
+  width: 42rem;
+    margin-left: 0rem;
+    margin-top: 8rem;
 }
 
 .casette {
@@ -388,14 +397,34 @@ footer{
   position: absolute;
 }
 .btn-tv {
-  border: none;
+  /* border: none;
   position: absolute;
   top: 59%;
   left: -11%;
   transform: translate(386px, -35px);
   width: 56px;
   height: 56px;
+  border-radius: 50px; */
+  border: none;
+  position: absolute;
+  top: 27rem;
+  left: -6.5rem;
+  transform: translate(386px, -35px);
+  width: 5.5rem;
+  height: 5.5rem;
   border-radius: 50px;
+}
+
+.content-tv {
+  position: absolute;
+  margin-left: 8.4rem;
+  margin-top: 10rem;
+  width: 21.8rem;
+  height: 16rem;
+  z-index: -1;
+  /* border: solid; */
+  background-color: grey;
+  border-radius: 18px;
 }
 
 }
