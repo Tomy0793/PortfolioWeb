@@ -322,6 +322,7 @@ footer{
 }
 
   .img-avatar {
+    display: none;
     position: absolute;
     width: 176px;
     height: auto;
@@ -330,29 +331,29 @@ footer{
 }
 
 
-  .vhs-container {
-    position: absolute;
-    height: 300px;
-    width: 390px;
+  .vhs-container {    
+    display: flex;
+    position: relative;
+    height: 186px;
+    width: 370px;
+    top: 14rem;
     left: 15px;
     z-index: 1;
+    flex-direction: row;
 }
 
 .vhs1{
-  /* width: 181px;
-  top: 58px;
-  left: 206px; */
+  position: relative;
   width: 18rem;
   top: 6rem;
-  left: 21rem;
+  left: 18rem;
 }
 
 .vhs2{
-  /* width: 181px;
-  top: 58px; */
+  position: relative;
   width: 18rem;
-    top: 6rem;
-    left: 1rem;
+  top: 6rem;
+  left: -20rem;
 }
 
 .skill-container {
@@ -361,11 +362,10 @@ footer{
 }
 
 .video {
-  position: absolute;
-  left: 17%;
+  position: relative;
+  left: 7rem;
   width: 185px;
-  top: 20%;
-  height: -moz-fit-content;
+  top: 15rem;
   height: fit-content;
 }
 
@@ -378,15 +378,15 @@ footer{
 }
 
 .casette {
-  top: 109px;
-  background: beige;
-  left: 94px;
-  width: 94px;
-  text-align: center;
-  padding: 4px;
-  font-size: 8px;
-  height: 21px;
-  position: absolute;
+  top: 167px;
+    background: beige;
+    left: 89px;
+    width: 94px;
+    text-align: center;
+    padding: 4px;
+    font-size: 8px;
+    height: 21px;
+    position: absolute;
 }
 
 .img-btn-tv {
@@ -407,7 +407,7 @@ footer{
   border-radius: 50px; */
   border: none;
   position: absolute;
-  top: 27rem;
+  top: 31rem;
   left: -6.5rem;
   transform: translate(386px, -35px);
   width: 5.5rem;
@@ -425,6 +425,14 @@ footer{
   /* border: solid; */
   background-color: grey;
   border-radius: 18px;
+}
+
+.tv-container {
+  height: 516px;
+  display: flex;
+  position: relative;
+  margin-top: 5px;
+  flex-direction: column;
 }
 
 }
