@@ -195,10 +195,11 @@ padding: 10px;
             /* margin-left: 265px;
             animation:lightSpeedInLeft;
             animation-duration: 1s; */
-                left: 6rem;
-        top: 15rem;
-        animation: lightSpeedInLeft;
-        animation-duration: 1s;
+            position: relative;
+    left: 0rem;
+    top: -38rem;
+    animation: lightSpeedInLeft;
+    animation-duration: 1s;
     
         }
     .text {
@@ -218,10 +219,11 @@ padding: 10px;
         width: 279px;
         height: auto;
         margin-right: 547px; */
-        top: -18rem;
-        width: 15rem;
+        position: relative;
+        top: -100rem;
+        width: 24rem;
         height: auto;
-        right: -36rem;
+        right: 0rem;
     }
 }
 
@@ -293,6 +295,7 @@ padding: 10px;
         width: 279px;
         height: auto;
         margin-right: 547px; */
+        position: relative;
         margin-top: 68rem;
         width: 20rem;
         height: auto;

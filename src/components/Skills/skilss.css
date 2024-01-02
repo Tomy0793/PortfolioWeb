@@ -344,6 +344,7 @@ footer{
   left: 206px; */
   position: relative;
   width: 18rem;
+  height: auto;
   top: 6rem;
   left: 21rem;
 }
@@ -353,6 +354,7 @@ footer{
   top: 58px; */
   position: relative;
   width: 18rem;
+  height: auto;
     top: 6rem;
     left: -17rem;
 }
@@ -481,6 +483,7 @@ footer{
     top: 58px;
     left: 206px; */
     width: 16rem;
+    height: auto;
     top: 6rem;
     left: 21rem;
   }
@@ -488,6 +491,7 @@ footer{
   .vhs2{
     /* width: 181px;
     top: 58px; */
+    height: auto;
     width: 16rem;
       top: 6rem;
       left: -13rem;
@@ -611,6 +615,7 @@ footer{
       top: 58px;
       left: 206px; */
       width: 14rem;
+      height: auto;
       top: 6rem;
       left: 19rem;
     }
@@ -619,6 +624,7 @@ footer{
       /* width: 181px;
       top: 58px; */
       width: 14rem;
+      height: auto;
         top: 6rem;
         left: -10rem;
     }
