@@ -369,8 +369,7 @@ footer{
   left: 7rem;
   width: 18rem;
   top: 14.5rem;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
 }
 
 .tv{
