@@ -325,7 +325,7 @@ footer{
     position: absolute;
     width: 176px;
     height: auto;
-    top: 472px;
+    top: 502px;
     left: 30px;
 }
 
@@ -342,6 +342,7 @@ footer{
   /* width: 181px;
   top: 58px;
   left: 206px; */
+  position: relative;
   width: 18rem;
   top: 6rem;
   left: 21rem;
@@ -350,9 +351,10 @@ footer{
 .vhs2{
   /* width: 181px;
   top: 58px; */
+  position: relative;
   width: 18rem;
     top: 6rem;
-    left: 1rem;
+    left: -17rem;
 }
 
 .skill-container {
@@ -361,10 +363,10 @@ footer{
 }
 
 .video {
-  position: absolute;
-  left: 17%;
-  width: 185px;
-  top: 20%;
+  position: relative;
+  left: 7rem;
+  width: 18rem;
+  top: 14.5rem;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -378,15 +380,15 @@ footer{
 }
 
 .casette {
-  top: 109px;
+  top: 2.8rem;
   background: beige;
-  left: 94px;
+  left: 8.7rem;
   width: 94px;
   text-align: center;
   padding: 4px;
   font-size: 8px;
   height: 21px;
-  position: absolute;
+  position: relative;
 }
 
 .img-btn-tv {
@@ -406,25 +408,31 @@ footer{
   height: 56px;
   border-radius: 50px; */
   border: none;
-  position: absolute;
-  top: 27rem;
-  left: -6.5rem;
-  transform: translate(386px, -35px);
-  width: 5.5rem;
-  height: 5.5rem;
-  border-radius: 50px;
+    position: absolute;
+    top: 31rem;
+    left: -6.8rem;
+    transform: translate(386px, -35px);
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50px;
 }
 
 .content-tv {
-  position: absolute;
+  position: relative;
   margin-left: 8.4rem;
-  margin-top: 10rem;
+  margin-top: 8rem;
   width: 21.8rem;
   height: 16rem;
   z-index: -1;
   /* border: solid; */
   background-color: grey;
   border-radius: 18px;
+}
+
+.tv-container {
+  display: flow;
+  position: relative;
+  margin-top: 5px;
 }
 
 }
@@ -482,7 +490,7 @@ footer{
     top: 58px; */
     width: 16rem;
       top: 6rem;
-      left: 1rem;
+      left: -13rem;
   }
   
   .skill-container {
@@ -612,7 +620,7 @@ footer{
       top: 58px; */
       width: 14rem;
         top: 6rem;
-        left: 3rem;
+        left: -10rem;
     }
     
     .skill-container {
@@ -632,7 +640,7 @@ footer{
     .tv{
      /*  margin-left: 0px;
       margin-top: 78px; */
-      width: 42rem;
+      width: 39rem;
       margin-left: 0rem;
       margin-top: 8rem;
     }
@@ -668,7 +676,7 @@ footer{
       border: none;
       position: absolute;
       top: 25rem;
-      left: -9.5rem;
+      left: -8.5rem;
       transform: translate(386px, -35px);
       width: 4.5rem;
       height: 4.5rem;
@@ -678,7 +686,7 @@ footer{
     .content-tv {
       position: absolute;
       margin-left: 6.4rem;
-      margin-top: 9rem;
+      margin-top: 9.4rem;
       width: 22.9rem;
       height: 14rem;
       z-index: -1;
