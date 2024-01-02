@@ -199,68 +199,70 @@ textarea {
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 432px){
     .mug {
-        top: 617px;
-        right: 0px;
+        top: 34rem;
+        right: 9rem;
         z-index: 0;
-        position: absolute;
+        position: relative;
         width: 168px;
         height: auto;
         transform: rotate(11deg);
+    
     }
     .pencil {
-        top: 606px;
-        right: 255px;
+        top: 33rem;
+        right: 85rem;
         z-index: -1;
-        position: absolute;
+        position: relative;
         width: 166px;
         height: auto;
     }
 
     .mesa {
-        top: 242px;
-        right: -164px;
-        z-index: -1;
-        position: absolute;
-        width: 763px;
-        height: auto;
-        transform: rotate(90deg);
+        top: 15rem;
+    right: -45rem;
+    z-index: -1;
+    position: relative;
+    width: 763px;
+    height: auto;
+    transform: rotate(90deg);
     }
 
     .form-img {
-        top: 279px;
-        z-index: -1;
-        position: absolute;
-        width: 362px;
-        height: auto;
+        right: 48rem;
+    top: 17rem;
+    z-index: -1;
+    position: relative;
+    width: 362px;
+    height: auto;
     }
     .formcon {
         position: relative;
     margin-top: 116px;
     max-width: 400px;
-    margin-left: -110px;
+    margin-left: -94rem;
     }
 
 
     #in{
         position: relative;
-        RIGHT: -50px;
-        top: -132px;
+        RIGHT: 8rem;
+        top: -11rem;
         transform: rotate(342deg);
     }
     
     #git{
         position: relative;
-        RIGHT: -243px;
-        top: -132px;
-        transform: rotate(24deg);
+    RIGHT: -10rem;
+    top: -11rem;
+    transform: rotate(24deg);
     }
     
     #cv{
         position: relative;
-        RIGHT: -42px;
-        top: -158px;
+        RIGHT: 9rem;
+        top: -13rem;
         transform: rotate(0deg);
     }
     
@@ -272,120 +274,154 @@ textarea {
     }
 }
 
+
 @media screen and (max-width: 390px){
     .mug {
-        top: 617px;
-        right: 23px;
+        top: 34rem;
+        right: 12rem;
         z-index: 0;
-        position: absolute;
-        width: 129px;
+        position: relative;
+        width: 168px;
         height: auto;
-        transform: rotate(29deg);
+        transform: rotate(11deg);
+    
     }
     .pencil {
-        top: 546px;
-        right: 224px;
+        top: 33rem;
+        right: 85rem;
         z-index: -1;
-        position: absolute;
+        position: relative;
         width: 166px;
         height: auto;
     }
 
     .mesa {
-        top: 242px;
-    right: -162px;
+        top: 15rem;
+    right: -45rem;
     z-index: -1;
-    position: absolute;
-    width: 719px;
+    position: relative;
+    width: 763px;
     height: auto;
     transform: rotate(90deg);
     }
 
+    .form-img {
+        right: 48rem;
+    top: 17rem;
+    z-index: -1;
+    position: relative;
+    width: 362px;
+    height: auto;
+    }
+    .formcon {
+        position: relative;
+    margin-top: 116px;
+    max-width: 400px;
+    margin-left: -94rem;
+    }
+
+
     #in{
         position: relative;
-        RIGHT: -26px;
-        top: -132px;
+        RIGHT: 8rem;
+        top: -11rem;
         transform: rotate(342deg);
     }
     
     #git{
         position: relative;
-        RIGHT: -217px;
-        top: -132px;
-        transform: rotate(24deg);
+    RIGHT: -10rem;
+    top: -11rem;
+    transform: rotate(24deg);
     }
     
     #cv{
         position: relative;
-        RIGHT: -26px;
-        top: -158px;
+        RIGHT: 9rem;
+        top: -13rem;
         transform: rotate(0deg);
+    }
+    
+
+
+    #fot {
+      top: 262px;
+        position: fixed;
     }
 }
 
 
 @media screen and (max-width: 360px){
     .mug {
-        top: 617px;
-        right: 23px;
+        top: 34rem;
+        right: 9rem;
         z-index: 0;
-        position: absolute;
-        width: 129px;
+        position: relative;
+        width: 168px;
         height: auto;
-        transform: rotate(29deg);
+        transform: rotate(11deg);
+    
     }
     .pencil {
-        top: 546px;
-        right: 191px;
+        top: 33rem;
+        right: 85rem;
         z-index: -1;
-        position: absolute;
+        position: relative;
         width: 166px;
         height: auto;
     }
 
-    formcon {
-        position: relative;
-        margin-top: 116px;
-        max-width: 400px;
-        margin-left: -136px;
+    .mesa {
+        top: 15rem;
+    right: -45rem;
+    z-index: -1;
+    position: relative;
+    width: 763px;
+    height: auto;
+    transform: rotate(90deg);
     }
 
-    .mesa {
-        top: 242px;
-        right: -153px;
-        z-index: -1;
-        position: absolute;
-        width: 669px;
-        height: auto;
-        transform: rotate(90deg);
-    }
     .form-img {
-        top: 254px;
-        z-index: -1;
-        position: absolute;
-        width: 325px;
-        height: auto;
+        right: 48rem;
+    top: 17rem;
+    z-index: -1;
+    position: relative;
+    width: 362px;
+    height: auto;
     }
-    
+    .formcon {
+        position: relative;
+    margin-top: 116px;
+    max-width: 400px;
+    margin-left: -94rem;
+    }
+
 
     #in{
         position: relative;
-        RIGHT: -26px;
-        top: -132px;
+        RIGHT: 8rem;
+        top: -11rem;
         transform: rotate(342deg);
     }
     
     #git{
         position: relative;
-        RIGHT: -193px;
-        top: -132px;
-        transform: rotate(24deg);
+    RIGHT: -10rem;
+    top: -11rem;
+    transform: rotate(24deg);
     }
     
     #cv{
         position: relative;
-        RIGHT: -13px;
-        top: -158px;
+        RIGHT: 9rem;
+        top: -13rem;
         transform: rotate(0deg);
+    }
+    
+
+
+    #fot {
+      top: 262px;
+        position: fixed;
     }
 }
