@@ -315,14 +315,13 @@
 
 
 /* Para iphone */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 432px){
 
 footer{
   position: relative;
 }
 
   .img-avatar {
-    display: none;
     position: absolute;
     width: 176px;
     height: auto;
@@ -331,29 +330,29 @@ footer{
 }
 
 
-  .vhs-container {    
-    display: flex;
-    position: relative;
-    height: 186px;
-    width: 370px;
-    top: 14rem;
-    left: 15px;
-    z-index: 1;
-    flex-direction: row;
+  .vhs-container {
+      position: relative;
+      height: 1rem;
+      width: 44rem;
+      left: 0rem;
+      z-index: 1;
 }
 
 .vhs1{
-  position: relative;
+  /* width: 181px;
+  top: 58px;
+  left: 206px; */
   width: 18rem;
   top: 6rem;
-  left: 18rem;
+  left: 21rem;
 }
 
 .vhs2{
-  position: relative;
+  /* width: 181px;
+  top: 58px; */
   width: 18rem;
-  top: 6rem;
-  left: -20rem;
+    top: 6rem;
+    left: 1rem;
 }
 
 .skill-container {
@@ -362,10 +361,11 @@ footer{
 }
 
 .video {
-  position: relative;
-  left: 7rem;
+  position: absolute;
+  left: 17%;
   width: 185px;
-  top: 15rem;
+  top: 20%;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -378,15 +378,15 @@ footer{
 }
 
 .casette {
-  top: 167px;
-    background: beige;
-    left: 89px;
-    width: 94px;
-    text-align: center;
-    padding: 4px;
-    font-size: 8px;
-    height: 21px;
-    position: absolute;
+  top: 109px;
+  background: beige;
+  left: 94px;
+  width: 94px;
+  text-align: center;
+  padding: 4px;
+  font-size: 8px;
+  height: 21px;
+  position: absolute;
 }
 
 .img-btn-tv {
@@ -407,7 +407,7 @@ footer{
   border-radius: 50px; */
   border: none;
   position: absolute;
-  top: 31rem;
+  top: 27rem;
   left: -6.5rem;
   transform: translate(386px, -35px);
   width: 5.5rem;
@@ -425,14 +425,6 @@ footer{
   /* border: solid; */
   background-color: grey;
   border-radius: 18px;
-}
-
-.tv-container {
-  height: 516px;
-  display: flex;
-  position: relative;
-  margin-top: 5px;
-  flex-direction: column;
 }
 
 }

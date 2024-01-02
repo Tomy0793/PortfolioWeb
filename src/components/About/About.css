@@ -176,11 +176,12 @@ padding: 10px;
 
     .interest-1 {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-right: 21rem;
-        width: 43rem;
-        height: 457px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0rem;
+    margin-left: -2rem;
+    width: 43rem;
+    height: 457px;
         box-sizing: border-box;
         padding: 1%;
             background-image: url('../../images/Content/about-mobile.png');
@@ -189,16 +190,17 @@ padding: 10px;
     
         }
 
-    .btn-mobile{
-        /* margin-left: 265px;
-        animation:lightSpeedInLeft;
-        animation-duration: 1s; */
-        margin-left: 26rem;
-        margin-top: 26rem;
+    
+        .btn-mobile{
+            /* margin-left: 265px;
+            animation:lightSpeedInLeft;
+            animation-duration: 1s; */
+                left: 6rem;
+        top: 15rem;
         animation: lightSpeedInLeft;
         animation-duration: 1s;
-
-    }
+    
+        }
     .text {
         /* width: 70%;
         margin-left: 80px;
@@ -211,22 +213,15 @@ padding: 10px;
         padding-right: 2rem;
     }
 
-    .avatar{
-    margin-left: -150px;
-    margin-top: 10px;
-    width: 189px;
-    height: auto;
-    }
-
     #avatarAbout {
         /* margin-top: 704px;
         width: 279px;
         height: auto;
         margin-right: 547px; */
-        margin-top: 65rem;
-    width: 20rem;
-    height: auto;
-    margin-right: 54rem;
+        top: -18rem;
+        width: 15rem;
+        height: auto;
+        right: -36rem;
     }
 }
 
@@ -341,7 +336,7 @@ padding: 10px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-right: 23rem;
+        margin-right: 1rem;
         width: 37rem;
         height: 396px;
         box-sizing: border-box;
@@ -375,19 +370,12 @@ padding: 10px;
     padding-right: 2rem;
     }
 
-    .avatar{
-    margin-left: -150px;
-    margin-top: 10px;
-    width: 189px;
-    height: auto;
-    }
-
     #avatarAbout {
         /* margin-top: 704px;
         width: 279px;
         height: auto;
         margin-right: 547px; */
-        margin-top: 60rem;
+        margin-top: 64rem;
     width: 16rem;
     height: auto;
     margin-right: 54rem;
