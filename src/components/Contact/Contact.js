@@ -25,7 +25,7 @@ const Contact = () => {
 
 
   return (
-    <div className='container'>
+    <div className='container1'>
 <Loader/>
 {content ? (
         <>

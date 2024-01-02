@@ -4,21 +4,27 @@
     justify-content: center;
 }
 
+.container1{
+    width: 100%;
+}
+
 .form-container{
     width: 308px;
     padding-top: 92px;
 }
 
 
-.formcon{   
+.formcon {
     position: relative;
     width: 234px;
     max-width: 408px;
-    margin-left: -57px;
+    margin-left: 579px;
+    margin-top: -79px;
 }
 
-.form-img{
-    top: 89px;
+.form-img {
+    top: 69px;
+    left: 496px;
     z-index: -1;
     position: absolute;
     width: 362px;
@@ -45,7 +51,7 @@
 }
 
 .mesa{
-    top: 77px;
+    top: 57px;
     right: 218px;
     z-index: -1;
     position: absolute;
@@ -61,22 +67,22 @@
 
 #in{
     position: relative;
-    RIGHT: 64px;
-    top: -88px;
+    RIGHT: -331px;
+    top: 36px;
     transform: rotate(342deg);
 }
 
 #git{
     position: relative;
-    RIGHT: 124px;
-    top: 67px;
+    RIGHT: -271px;
+    top: 334px;
     transform: rotate(24deg);
 }
 
 #cv{
     position: relative;
-    RIGHT: 208px;
-    top: 211px;
+    RIGHT: -198px;
+    top: 189px;
     transform: rotate(342deg);
 }
 
@@ -128,6 +134,15 @@ textarea {
 
 @media screen and (max-width: 1024px){
 
+
+.formcon {
+    position: relative;
+    width: 234px;
+    max-width: 408px;
+    margin-left: 404px;
+    margin-top: -79px;
+}
+    
     .mesa{
         top: 130px;
         right: 50px;
@@ -138,8 +153,13 @@ textarea {
         right: 267px;
     }
     
-    .form-img{
-        top: 142px;
+    .form-img {
+        top: 139px;
+        left: 338px;
+        z-index: -1;
+        position: absolute;
+        width: 362px;
+        height: auto;
     }
     
     .pencil{
@@ -150,6 +170,29 @@ textarea {
     .form-container{
         padding-top: 160px;
     }
+
+    #in {
+        position: relative;
+        RIGHT: -178px;
+        top: 111px;
+        transform: rotate(342deg);
+    }
+
+    #cv {
+        position: relative;
+        RIGHT: -45px;
+        top: 244px;
+        transform: rotate(342deg);
+    }
+
+    #git {
+        position: relative;
+        RIGHT: -121px;
+        top: 418px;
+        transform: rotate(24deg);
+    }
+
+
     }
     
 
@@ -201,8 +244,8 @@ textarea {
 
 @media screen and (max-width: 432px){
     .mug {
-        top: 34rem;
-        right: 9rem;
+        top: 20rem;
+        right: -1rem;
         z-index: 0;
         position: relative;
         width: 168px;
@@ -211,8 +254,8 @@ textarea {
     
     }
     .pencil {
-        top: 33rem;
-        right: 85rem;
+        top: -40rem;
+        left: 0rem;
         z-index: -1;
         position: relative;
         width: 166px;
@@ -220,18 +263,18 @@ textarea {
     }
 
     .mesa {
-        top: 15rem;
-    right: -45rem;
+        top: 22rem;
+    right: 18rem;
     z-index: -1;
     position: relative;
-    width: 763px;
+    width: 743px;
     height: auto;
     transform: rotate(90deg);
     }
 
     .form-img {
-        right: 48rem;
-    top: 17rem;
+        left: 1rem;
+    top: -29rem;
     z-index: -1;
     position: relative;
     width: 362px;
@@ -239,30 +282,30 @@ textarea {
     }
     .formcon {
         position: relative;
-    margin-top: 116px;
-    max-width: 400px;
-    margin-left: -94rem;
+        margin-top: -96rem;
+        max-width: 400px;
+        margin-left: 8rem;
     }
 
 
     #in{
         position: relative;
-        RIGHT: 8rem;
-        top: -11rem;
+        RIGHT: -4rem;
+        top: -29rem;
         transform: rotate(342deg);
     }
     
     #git{
         position: relative;
-    RIGHT: -10rem;
-    top: -11rem;
-    transform: rotate(24deg);
+        RIGHT: -22rem;
+        top: -29rem;
+        transform: rotate(24deg);
     }
     
     #cv{
         position: relative;
-        RIGHT: 9rem;
-        top: -13rem;
+        RIGHT: -3rem;
+        top: -29rem;
         transform: rotate(0deg);
     }
     
@@ -277,8 +320,8 @@ textarea {
 
 @media screen and (max-width: 390px){
     .mug {
-        top: 34rem;
-        right: 12rem;
+        top: 20rem;
+        right: -1rem;
         z-index: 0;
         position: relative;
         width: 168px;
@@ -287,8 +330,8 @@ textarea {
     
     }
     .pencil {
-        top: 33rem;
-        right: 85rem;
+        top: -40rem;
+        left: 0rem;
         z-index: -1;
         position: relative;
         width: 166px;
@@ -296,18 +339,18 @@ textarea {
     }
 
     .mesa {
-        top: 15rem;
-    right: -45rem;
+        top: 22rem;
+    right: 18rem;
     z-index: -1;
     position: relative;
-    width: 763px;
+    width: 743px;
     height: auto;
     transform: rotate(90deg);
     }
 
     .form-img {
-        right: 48rem;
-    top: 17rem;
+        left: 1rem;
+    top: -29rem;
     z-index: -1;
     position: relative;
     width: 362px;
@@ -315,30 +358,30 @@ textarea {
     }
     .formcon {
         position: relative;
-    margin-top: 116px;
-    max-width: 400px;
-    margin-left: -94rem;
+        margin-top: -96rem;
+        max-width: 400px;
+        margin-left: 8rem;
     }
 
 
     #in{
         position: relative;
-        RIGHT: 8rem;
-        top: -11rem;
+        RIGHT: -4rem;
+        top: -29rem;
         transform: rotate(342deg);
     }
     
     #git{
         position: relative;
-    RIGHT: -10rem;
-    top: -11rem;
-    transform: rotate(24deg);
+        RIGHT: -22rem;
+        top: -29rem;
+        transform: rotate(24deg);
     }
     
     #cv{
         position: relative;
-        RIGHT: 9rem;
-        top: -13rem;
+        RIGHT: -3rem;
+        top: -29rem;
         transform: rotate(0deg);
     }
     
@@ -350,11 +393,10 @@ textarea {
     }
 }
 
-
-@media screen and (max-width: 360px){
+@media screen and (max-width: 371px){
     .mug {
-        top: 34rem;
-        right: 9rem;
+        top: 12rem;
+        right: -20rem;
         z-index: 0;
         position: relative;
         width: 168px;
@@ -363,8 +405,8 @@ textarea {
     
     }
     .pencil {
-        top: 33rem;
-        right: 85rem;
+        top: -50rem;
+        left: 0rem;
         z-index: -1;
         position: relative;
         width: 166px;
@@ -372,18 +414,18 @@ textarea {
     }
 
     .mesa {
-        top: 15rem;
-    right: -45rem;
+        top: 22rem;
+    right: 19rem;
     z-index: -1;
     position: relative;
-    width: 763px;
+    width: 727px;
     height: auto;
     transform: rotate(90deg);
     }
 
     .form-img {
-        right: 48rem;
-    top: 17rem;
+        left: 1rem;
+    top: -38rem;
     z-index: -1;
     position: relative;
     width: 362px;
@@ -391,30 +433,30 @@ textarea {
     }
     .formcon {
         position: relative;
-    margin-top: 116px;
-    max-width: 400px;
-    margin-left: -94rem;
+        margin-top: -109rem;
+        max-width: 400px;
+        margin-left: 8rem;
     }
 
 
     #in{
         position: relative;
-        RIGHT: 8rem;
-        top: -11rem;
+        RIGHT: -4rem;
+        top: -29rem;
         transform: rotate(342deg);
     }
     
     #git{
         position: relative;
-    RIGHT: -10rem;
-    top: -11rem;
-    transform: rotate(24deg);
+        RIGHT: -22rem;
+        top: -29rem;
+        transform: rotate(24deg);
     }
     
     #cv{
         position: relative;
-        RIGHT: 9rem;
-        top: -13rem;
+        RIGHT: -3rem;
+        top: -29rem;
         transform: rotate(0deg);
     }
     
