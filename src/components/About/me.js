@@ -7,7 +7,7 @@ const me = () => {
     <div className='interest-1'>
       <TypeAnimation className='text'
   sequence={[
-    'My name is Tomas Ninno, and I am 30 years old. Currently, I am seeking my first opportunity as a web developer.',
+    'My name is Tomas Ninno and I am 30 years old. I am currently looking for an opportunity as a web developer.',
     500,
   ]}
   style={{ fontSize: '1.5em' }}
